@@ -2,15 +2,29 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-    display: grid;
-    grid-template-columns: 100px 200px 150px;
-    grid-template-rows: 20vh 30vh 50vh ;
+main.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
 }
-.box{
-    height: 50px;
-    width: 50px;
-    margin: 5px;
-    background-color: black;
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+.login input{
+    all:unset;
+    padding: 0.8em;
+    border: solid black 1px;
+    border-radius: 0.5em;
+    margin: 1em;
+}
+::placeholder{
+    color: black;
 }
