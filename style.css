@@ -25,6 +25,19 @@ main.container{
     border-radius: 0.5em;
     margin: 1em;
 }
+.login button{
+    all:unset;
+    background-color: rgb(190, 240, 255);
+    padding: 0.8em;
+    border: solid black 1px;
+    border-radius: 0.5em;
+    margin: 1em;
+    transition: 0.3s ;
+}
+.login button:hover{
+    cursor: pointer;
+    background-color: rgb(152, 231, 255);
+}
 ::placeholder{
     color: black;
 }
